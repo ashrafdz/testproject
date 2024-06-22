@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #ffcc00;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.header .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav{
+
+background-color: #f1a925;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.search-login {
+    display: flex;
+    align-items: center;
+}
+
+.search-login input[type="text"] {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 25px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.search-login .search-button {
+    background-color: white;
+    border: none;
+    border-radius: 25px 25px 25px 25px;
+    color: #000000;
+    padding: 5px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+.search-login .search-button:hover {
+      background-color: #f1a925;
+      color: #fff;
+  }
+  
+.search-login .login,
+.search-login .register {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.search-login span {
+    color: white;
+    margin-left: 10px;
+}
+
+.banner {
+  text-align: center;
+  background: url('background-image.png') no-repeat center center;
+  background-size: cover;
+  padding: 50px 20px;
+  position: relative;
+}
+
+.logo-img {
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  width: 150px;
+  height: 100px;
+  border-radius: 20px 20px 20px 20px;
+}
+
+.banner-text h1 {
+  color: #fff;
+  font-size: 36px;
+}
+
+.product-img {
+  margin: 20px auto;
+  display: block;
+}
+
+.dishes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.dish {
+  width: calc(33% - 1rem);
+  text-align: center;
+}
+
+.dish img {
+  width: 400px;
+  height: auto;
+  border-radius:50px 50px 50px 50px ;
+}
+
+h1 {
+  text-align: center;
+  font-family: Pacifico, cursive;
+  font-size: 2.5rem;
+  color: #f1a925;
+}
+
+.meal-times {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f8f8f800;
+}
+
+.meal-time {
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000;
+  background-color: #ddd;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+

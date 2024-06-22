@@ -1,0 +1,233 @@
+h1 {
+    text-align: center;
+    font-family: Pacifico, cursive;
+    font-size: 5.0rem;
+    color: #000000;
+  }
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    background-color: #ffcc00;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .header .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav{
+  
+  background-color: #f1a925;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+  }
+  
+  .nav-links {
+      list-style: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .nav-links li {
+      margin-right: 20px;
+  }
+  
+  .nav-links a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+  }
+  
+  .search-login {
+      display: flex;
+      align-items: center;
+  }
+  
+  .search-login input[type="text"] {
+      border: none;
+      padding: 5px 10px;
+      border-radius: 25px;
+      width: 200px;
+      margin-right: 10px;
+  }
+  
+  .search-login .search-button {
+      background-color: white;
+      border: none;
+      border-radius: 25px 25px 25px 25px;
+      color: #000000;
+      padding: 5px 15px;
+      cursor: pointer;
+      font-size: 14px;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    
+  .search-login .search-button:hover {
+        background-color: #f1a925;
+        color: #fff;
+    }
+    
+  .search-login .login,
+  .search-login .register {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      margin-left: 10px;
+  }
+  
+  .search-login span {
+      color: white;
+      margin-left: 10px;
+  }
+  
+  .banner {
+    text-align: center;
+    background: url('background-image.png') no-repeat center center;
+    background-size: cover;
+    padding: 50px 20px;
+    position: relative;
+  }
+  
+  .logo-img {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    width: 150px;
+    height: 100px;
+    border-radius: 20px 20px 20px 20px;
+  }
+  
+  .banner-text h1 {
+    color: #fff;
+    font-size: 36px;
+  }
+  
+  .product-img {
+    margin: 20px auto;
+    display: block;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fdfdfd;
+    margin: 0;
+    padding: 0;
+}
+
+.recipe-container {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+    text-align: center;
+}
+
+.save-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.description {
+    font-size: 1.1em;
+    color: #555;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.recipe-details {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.detail-item {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.detail-item span {
+    font-weight: bold;
+    color: #333;
+}
+
+.note, .date {
+    font-size: 0.9em;
+    color: #999;
+    text-align: center;
+    margin: 5px 0;
+}
+
+img {
+    width: 30%;
+    border-radius: 10px;
+    margin: 20px auto;
+    display: block;
+}
+
+.section {
+    margin: 20px 0;
+}
+
+h2 {
+    font-size: 2em;
+    color: #ff9800;
+    margin-bottom: 10px;
+}
+
+.ingredient {
+    display: flex;
+    align-items: center;
+}
+
+.ingredient img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.buy-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.ingredients-list, .steps-list {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.ingredients-list li, .steps-list li {
+    margin: 10px 0;
+}
+
+.steps-list li {
+    margin-left: 20px;
+}
